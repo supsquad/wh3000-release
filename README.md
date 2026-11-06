@@ -17,9 +17,8 @@ mới nhất.
 |---|---|
 | `firmware/latest.json` | Bản firmware mới nhất: URL, SHA256 và kích thước của ảnh sysupgrade, theo board (`huasifei,wh3000-emmc`) |
 
-Manifest có chữ ký ed25519 đi kèm (`latest.json.sig`). Router bỏ qua manifest nào không kiểm được chữ ký.
-Không sửa tay các file này: script phát hành ghi chúng sau khi đăng bản build.
+Không sửa tay file này: script phát hành ghi nó sau khi đăng bản build.
 
-Manifest của bản app không nằm ở đây. Script phát hành đăng ký từng bản app với máy chủ WH3000, và máy chủ
-chọn bản router nên chạy (bản mới nhất chưa bị thu hồi). Manifest vẫn được ký bằng cùng khoá, router kiểm
-chữ ký trước khi tải binary từ Release.
+Bản app không có manifest ở đây. Script phát hành đăng ký từng bản app với máy chủ WH3000, và máy chủ chọn
+bản router nên chạy (bản mới nhất chưa bị thu hồi). Router tải binary từ Release và kiểm SHA256 trước khi
+cài.
