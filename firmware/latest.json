@@ -1,12 +1,12 @@
 {
-  "version": "v1.0.1",
-  "released_at": "2026-11-08T04:27:34Z",
+  "version": "v1.0.2",
+  "released_at": "2026-11-15T20:23:45Z",
   "artifacts": {
     "huasifei,wh3000-emmc": {
-      "name": "wh3000-firmware-v1.0.1-sysupgrade.bin",
-      "url": "https://github.com/supsquad/wh3000-release/releases/download/firmware-v1.0.1/wh3000-firmware-v1.0.1-sysupgrade.bin",
-      "sha256": "c0d5967120a92abb725649d8b774927af564dc24353f6faac5e1422e8baae6d9",
-      "size": 60048178
+      "name": "wh3000-firmware-v1.0.2-sysupgrade.bin",
+      "url": "https://github.com/supsquad/wh3000-release/releases/download/firmware-v1.0.2/wh3000-firmware-v1.0.2-sysupgrade.bin",
+      "sha256": "39a002256cc82780a5ef3bef07ee8bc868ca3c3bd625e881a94fe9df9253321a",
+      "size": 60334898
     }
   }
 }
